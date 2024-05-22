@@ -20,7 +20,7 @@ func main() {
 func format(raw string) string {
 
 	out, err := wof_format.FormatBytes([]byte(raw))
-	
+
 	if err != nil {
 		return fmt.Sprintf("Failed to format data, %v", err)
 	}
