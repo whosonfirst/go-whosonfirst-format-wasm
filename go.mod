@@ -1,4 +1,4 @@
-module github.com/go-whosonfirst-format-wasm
+module github.com/whosonfirst/go-whosonfirst-format-wasm
 
 go 1.21.0
 
